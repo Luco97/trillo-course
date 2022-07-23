@@ -18,7 +18,11 @@
       <header class="header">
         <img src="img/logo.png" alt="logo" class="logo" />
         <form action="#" class="search">
-          <input type="text" class="search__input" placeholder="Search elements..."/>
+          <input
+            type="text"
+            class="search__input"
+            placeholder="Search elements..."
+          />
           <button class="search__button">
             <svg class="search__icon">
               <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
@@ -30,7 +34,7 @@
             <svg class="user-nav__icon">
               <use xlink:href="img/sprite.svg#icon-bookmark"></use>
             </svg>
-            <span class="user-nav__notification">13</span>
+            <span class="user-nav__notification">2</span>
           </div>
           <div class="user-nav__icon-box">
             <svg class="user-nav__icon">
@@ -49,7 +53,43 @@
         </nav>
       </header>
       <div class="content">
-        <nav class="sidebar">Navigation</nav>
+        <nav class="sidebar">
+          <ul class="side-nav">
+            <li class="side-nav__item side-nav__item--active test">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-home"></use>
+                </svg>
+                <span>Hotel</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-home"></use>
+                </svg>
+                <span>Flight</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-home"></use>
+                </svg>
+                <span>Travels</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-home"></use>
+                </svg>
+                <span>Tours</span>
+              </a>
+            </li>
+          </ul>
+          <div class="legal">&copy; 2022 by Luco97, right sucks.</div>
+        </nav>
         <main class="hotel-view">hotel view</main>
       </div>
     </div>
